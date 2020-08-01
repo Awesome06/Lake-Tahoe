@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+}
+body {
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+    background-image: url(data:image/jpeg;base64,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);
+  }
+  
+  .navigation ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .navigation li {
+    font-weight: 100;
+    letter-spacing: 2px;
+    padding: 20px;
+  }
+  
+  .navigation  li.logo {
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 4px;
+  }
+  
+  #banner {
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-6/htmlcss1-img_tahoe.jpeg");
+    background-size: cover;
+    background-position: bottom center;
+    height: 700px;
+    width: 100%;
+  }
+  
+  #banner .content h1 {
+    border: 5px solid white;
+    position: relative;
+    top: 50px;
+    width: 350px;
+    height: 375px;
+    margin: 0 auto;
+    font-size: 50px;
+  }
+  
+  #main {
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+    width: 1500px;
+    height: 1200px;
+    overflow: scroll;
+  }
+  
+  h1 {
+    color: white;
+    font-size: 42px;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  h2 {
+    border: 1px dotted red;
+    color: red;
+    font-size: 14px;
+    line-height: 48px;
+    padding: 20px 30px;
+    margin: 30px 20px;
+    text-align: center;
+  }
+  
+  h3 {
+    color: red;
+    font-size: 26px;
+    font-weight: 700;
+    padding: 20px 10px;
+  }
+  
+  p {
+    color: grey;
+    font-size: 16px;
+    line-height: 48px;
+    margin-top: 60px;
+    padding: 10px 20px;
+  }
+  
+  .pull-quote {
+    margin: 0 auto;
+    width: 400px;
+  }
+  
+  .byline {
+    border-bottom: 1px solid LightGrey;
+    border-top: 1px solid LightGrey;
+    color: DarkGrey;
+    font-size: 14px;
+    font-weight: 200;
+  }
+  
+  .share {
+    border: 1px solid LightGrey;
+    padding: 40px 0px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .share a {
+    background: red;
+    border: 1px solid red;
+    border-radius: 3px;
+    color: white;
+    display: inline-block;
+    margin: 10px;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+  .share a:hover {
+    background: white;
+    border: 1px solid red;
+    color: red;
+  }
